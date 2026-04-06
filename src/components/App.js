@@ -9,7 +9,7 @@ import AdminProdcut from "./adminProduct";
 
 const App = () => {
   return (
-    <BrowserRouter>
+     <>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -17,7 +17,7 @@ const App = () => {
         <Route path="/products/:id" element={<Product />} />
         <Route path="/admin/products/:id" element={<AdminProdcut />} />
       </Routes>
-    </BrowserRouter>
+    </>
   );
 };
 
