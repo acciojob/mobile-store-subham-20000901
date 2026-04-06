@@ -70,7 +70,8 @@ function App() {
   return (
     <div>
       <nav>
-        <Link to="/">Home</Link> | <Link to="/admin">Admin Panel</Link>
+        <Link to="/">Home</Link> 
+        <Link to="/admin">Admin Panel</Link>
       </nav>
       <Routes>
         <Route path="/" element={<ProductList products={products} />} />
